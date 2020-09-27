@@ -1,0 +1,19 @@
+.head-banner{
+    background-image: url(images/iphone1.jpg);
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar{
+    min-height: 80px;
+    border-bottom: 4px solid #14ffe8;
+    border-top: 4px solid #14ffe8;
+}
+
+.navbar-brand{
+    height: 80px;
+}
+.carousel-item img{
+    max-height: 600px;
+}
