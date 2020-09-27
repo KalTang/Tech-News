@@ -43,6 +43,10 @@
     border: 4px solid #14ffe8;
 }
 
+#box-titles{
+    margin-bottom: 10px;
+}
+
 
 /*================
  =----Cards------=
@@ -83,6 +87,19 @@
 .inner:hover img{
     transform: scale(1.5);
 }
+
+#accordion {
+    width: 100%;
+    text-decoration: none;
+    padding: auto;
+    margin: auto;
+}
+
+#headingOne {
+    position: relative;
+    z-index: 1;
+}
+
 
 
 #footer {
