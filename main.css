@@ -11,9 +11,22 @@
     border-top: 4px solid #14ffe8;
 }
 
-.navbar-brand{
-    height: 80px;
+.navbar li{
+    margin: 0 10px;
+
+}
+
+.navbar-toggle{
+    margin: 10px;
 }
 .carousel-item img{
-    max-height: 600px;
+    max-height: 650px;
+}
+
+.my-container {
+    border: 1px solid black
+}
+
+.sides{
+    display: flex;
 }
