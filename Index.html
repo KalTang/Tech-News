@@ -9,11 +9,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+
     <link href="main.css" rel="stylesheet">
   </head>
   <body>
+      <div id="wrapper">
       <!--Nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Tech-News</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -102,19 +106,90 @@
         </a>
     </div>
     
-    <section class="sides">
+    <section class="Favorites">
         <div class="container my-container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4">
                     <h1>Favorites stories</h1>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/gcard.jpg" alt="Card image cap">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="images/gcard.jpg" alt="Card image cap">
+                        </div>
                         <div class="card-body">
                           <h5 class="card-title">RTX-3090 Graphics card</h5>
                           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur perspiciatis praesentium voluptates ipsum cupiditate facilis? Magni, molestiae.</p>
-                          <a href="#" class="btn btn-primary">Read</a>
+                          <a href="" class="btn btn-outline-success btn-lg">Read</a>
+                          <a href="" class="btn btn-outline-danger btn-md"><i class="far fa-heart"></i></a>
                         </div>
-                      </div>
+                      </div>    
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="images/xbox.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Xbox 720??</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur perspiciatis praesentium voluptates ipsum cupiditate facilis? Magni, molestiae.</p>
+                          <a href="" class="btn btn-outline-success btn-lg">Read</a>
+                          <a href="" class="btn btn-outline-danger btn-md"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>    
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="images/headphone.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Top 10 headphones!</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur perspiciatis praesentium voluptates ipsum cupiditate facilis? Magni, molestiae.</p>
+                          <a href="" class="btn btn-outline-success btn-lg">Read</a>
+                          <a href="" class="btn btn-outline-danger btn-md"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="images/gcard.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">RTX-3090 Graphics card</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur perspiciatis praesentium voluptates ipsum cupiditate facilis? Magni, molestiae.</p>
+                          <a href="" class="btn btn-outline-success btn-lg">Read</a>
+                          <a href="" class="btn btn-outline-danger btn-md"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>    
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="images/xbox.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Xbox 720??</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur perspiciatis praesentium voluptates ipsum cupiditate facilis? Magni, molestiae.</p>
+                          <a href="" class="btn btn-outline-success btn-lg">Read</a>
+                          <a href="" class="btn btn-outline-danger btn-md"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>    
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="images/headphone.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Top 10 headphones!</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur perspiciatis praesentium voluptates ipsum cupiditate facilis? Magni, molestiae.</p>
+                          <a href="" class="btn btn-outline-success btn-lg">Read</a>
+                          <a href="" class="btn btn-outline-danger btn-md"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>    
                 </div>
             </div>
         </div>
@@ -123,52 +198,57 @@
                 <div class="col">
                     <h1>Latest News</h1>
                 </div>
-                <div class="accordion" id="accordionExample">
+                <div id="accordion">
                     <div class="card">
                       <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Upcoming features of IOS 13!!
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Microsoft buys TikTok!!
                           </button>
-                        </h2>
+                        </h5>
                       </div>
                   
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<br>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
                     </div>
                     <div class="card">
                       <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Sony Playstation 5 news!
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Playstation 5 delayed until 2022? 
                           </button>
-                        </h2>
+                        </h5>
                       </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          <br>
+                          <p class="card-text"><small class="text-muted">Last updated 4 hrs ago</small></p>
                         </div>
                       </div>
                     </div>
                     <div class="card">
                       <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Steve Jobs buys Microsoft!
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Fornite servers being shutdown!
                           </button>
-                        </h2>
+                        </h5>
                       </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          YIIIIIIIKKKES <br>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime architecto quod aliquid enim porro voluptatibus eveniet, nesciunt illum exercitationem iure optio recusandae iusto, mollitia debitis quia qui dolore dolores molestias?
+                          <br>
+                          <p class="card-text"><small class="text-muted">Last updated 4 hrs ago</small></p>
                         </div>
                       </div>
                     </div>
                   </div>
-            </div>
         </div>
     </section>
     
@@ -180,5 +260,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>
