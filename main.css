@@ -72,6 +72,10 @@
     box-shadow: 5px 0 15px 7px rgba(0, 0, 0, 1);
 }
 
+.card:hover{
+    opacity: 0.8;
+}
+
 .card-body {
     border-top: 1px solid black;
 }
